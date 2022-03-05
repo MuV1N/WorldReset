@@ -1,0 +1,10 @@
+name: WorldResetPlugin
+version: '1.0.0'
+main: de.muv1n.worldresetplugin.WorldResetPlugin
+api-version: 1.18
+load: STARTUP
+commands:
+  reset:
+    permission: reset.admin
+    permission-message: §cYou don´t have enough Permissions to perform this Command
+
